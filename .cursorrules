@@ -1,0 +1,127 @@
+# Cursor Rules - Rust Od Zera
+
+## Kontekst Projektu
+
+To jest projekt edukacyjny do nauki języka Rust od zera. Projekt ma na celu:
+- Pokazanie transparentnego procesu uczenia się (autor jest początkujący)
+- Tworzenie kompleksowych dokumentów edukacyjnych w języku polskim
+- Porównania z C# i Pythonem (doświadczenie autora)
+- Tłumaczenie wszystkich terminów specjalistycznych
+
+## Autor
+
+- **Arkadiusz Słota** - początkujący w Rust, doświadczony programista C#/Python
+- Manifest uczenia się - pokazujemy proces, nie tylko rezultat
+- Współpraca z AI w tworzeniu materiałów, ale z walidacją przez autora
+
+## Struktura Projektu
+
+```
+rust-od-zera/
+├── 01-podstawy/          # Podstawowe koncepty
+├── 02-ownership/          # Ownership i Borrowing
+├── 03-struktury-dane/     # Structs, Enums, Collections
+├── 04-error-handling/     # Result, Option, Error handling
+├── 05-traits-generics/    # Traits i Generics
+├── 06-zaawansowane/       # Closures, Iterators, Smart Pointers, Modules
+├── 07-concurrency/        # Threads, Channels, Mutex, Async
+├── 08-zaawansowane-tematy/ # Unsafe, Macros, FFI, Testing
+├── porownania/            # Porównania z C# i Pythonem
+└── private/              # Nie commitowane (.gitignore)
+```
+
+## Zasady Tworzenia Dokumentów
+
+### Format Każdego Dokumentu
+
+1. **Nagłówek** - numeracja, tytuł, poziom trudności, wymagana wiedza
+2. **Wprowadzenie** - co będziemy się uczyć
+3. **Terminologia** - tłumaczenie specjalistycznych słów (np. "Ownership" = "Własność")
+4. **Teoria** - wyjaśnienie konceptu z przykładami
+5. **Porównania** - sekcje "💡 Porównanie z C#" i "🐍 Porównanie z Pythonem"
+6. **Przykłady kodu** - inline w dokumentach, z komentarzami
+7. **Ćwiczenia praktyczne** - zadania do wykonania
+8. **Podsumowanie** - kluczowe punkty
+9. **Status Dokumentu** - data utworzenia, status walidacji, uwagi autora
+
+### Konwencje Pisania
+
+- **Pogrubienie** dla terminów Rust (np. **ownership**, **borrowing**)
+- *Kursywa* dla tłumaczeń polskich (np. *własność*, *pożyczanie*)
+- `kod` dla przykładów kodu
+- Każde specjalistyczne słowo powinno być tłumaczone przy pierwszym użyciu
+- Przykłady kodu powinny być komentowane po polsku
+
+### Ton i Styl
+
+- Profesjonalny, ale przystępny
+- Pokazujemy że autor jest początkujący (transparentność)
+- Motywujący - Rust jest trudny, ale warto
+- Praktyczny - teoria + przykłady + ćwiczenia
+
+## Porównania z Innymi Językami
+
+### C# (💡)
+- Autor ma 10 lat doświadczenia w C#
+- Pokazuj różnice w składni, podejściu, filozofii
+- Używaj przykładów z .NET, LINQ, itp.
+
+### Python (🐍)
+- Autor zna Python
+- Pokazuj różnice w typowaniu, zarządzaniu pamięcią
+- Używaj przykładów z Python 3.x
+
+## Współpraca z AI
+
+- AI pomaga w strukturze, przykładach, tłumaczeniach
+- Autor waliduje z oficjalną dokumentacją Rust
+- Dokumenty są aktualizowane na podstawie feedbacku
+- Proces jest transparentny - wszystko w DZIENNICZEK.md
+
+## Pliki Specjalne
+
+- **README.md** - główny indeks, manifest uczenia się
+- **DZIENNICZEK.md** - wspólny dzienniczek autora i AI
+- **CHANGELOG.md** - historia zmian dokumentów
+- **WSPOLPRACA.md** - logika współpracy w projekcie
+- **LICENSE** - CC BY-NC-SA 4.0 (nauka tak, komercja nie)
+
+## Zasady Git
+
+- Commitujemy regularnie
+- Sensowne commit messages
+- `private/` nie jest commitowane
+- DZIENNICZEK.md jest commitowany (transparentność)
+
+## Kiedy Tworzyć Nowe Dokumenty
+
+- Zgodnie z mapą ścieżki nauki w README.md
+- Krok po kroku, od podstaw do zaawansowanych
+- Każdy dokument powinien budować na poprzednich
+
+## Kiedy Aktualizować Dokumenty
+
+- Po walidacji z oficjalną dokumentacją Rust
+- Na podstawie feedbacku od społeczności
+- Gdy autor uczy się więcej i odkrywa błędy
+- Wszystkie zmiany w CHANGELOG.md
+
+## Filozofia Projektu
+
+- **Transparentność** - pokazujemy proces uczenia się
+- **Autentyczność** - nie udajemy ekspertów
+- **Pasja** - przeciwko fałszywemu marketingowi
+- **Współpraca** - AI + człowiek = wartościowe materiały
+- **Długoterminowość** - dokumenty rosną z wiedzą autora
+
+## Ważne Uwagi
+
+- Rust jest trudny - to OK, pokazujemy to
+- Błędy są częścią procesu - dokumentujemy je
+- Walidacja jest kluczowa - zawsze sprawdzaj z dokumentacją
+- Społeczność jest ważna - feedback jest wartościowy
+
+---
+
+**Pamiętaj:** Ten projekt to manifest uczenia się, nie kurs od eksperta. Pokazujemy jak można uczyć się Rust z pasją i determinacją, bez wydawania pieniędzy. 🦀
+
