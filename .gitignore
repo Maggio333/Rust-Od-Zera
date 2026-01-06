@@ -3,8 +3,7 @@
 /experimental/
 /draft/
 
-# Dzienniczek jest commitowany - to część transparentnego procesu
-# (nie dodajemy DZIENNICZEK.md do .gitignore)
+# Dzienniczek jest w private/ (automatycznie ignorowany)
 
 # Asciinema recordings (opcjonalnie - możesz chcieć je commitować)
 *.cast

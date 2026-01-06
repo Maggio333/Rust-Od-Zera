@@ -129,10 +129,6 @@ Ten projekt jest dostępny na licencji [Creative Commons Attribution-NonCommerci
 
 Szczegółowa historia zmian znajduje się w [CHANGELOG.md](CHANGELOG.md).
 
-### Dzienniczek Nauki
-
-Transparentny proces uczenia się dokumentowany w [DZIENNICZEK.md](DZIENNICZEK.md) - notatki, odkrycia, problemy, rozwiązania.
-
 ### Jak Działamy
 
 Szczegóły współpracy, procesu tworzenia dokumentów i logiki projektu w [WSPOLPRACA.md](WSPOLPRACA.md).
