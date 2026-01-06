@@ -62,6 +62,7 @@ cargo fmt
 
 ### 01-podstawy-example
 - ✅ [hello_world](01-podstawy-example/hello_world/) - Hello World, podstawy Cargo
+- ✅ [moj_pierwszy_program](01-podstawy-example/moj_pierwszy_program/) - Przykład z wieloma println!
 
 ### 02-ownership-example
 - ⏳ Przykłady w przygotowaniu
