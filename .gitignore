@@ -1,0 +1,32 @@
+# Prywatne / Eksperymentalne materiały
+/private/
+/experimental/
+/draft/
+
+# Dzienniczek jest commitowany - to część transparentnego procesu
+# (nie dodajemy DZIENNICZEK.md do .gitignore)
+
+# Asciinema recordings (opcjonalnie - możesz chcieć je commitować)
+*.cast
+
+# OS files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Rust build artifacts (jeśli dodamy przykłady kodu)
+target/
+Cargo.lock
+
+# Temporary files
+*.tmp
+*.log
+*.bak
+

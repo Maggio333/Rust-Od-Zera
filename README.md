@@ -129,6 +129,14 @@ Ten projekt jest dostępny na licencji [Creative Commons Attribution-NonCommerci
 
 Szczegółowa historia zmian znajduje się w [CHANGELOG.md](CHANGELOG.md).
 
+### Dzienniczek Nauki
+
+Transparentny proces uczenia się dokumentowany w [DZIENNICZEK.md](DZIENNICZEK.md) - notatki, odkrycia, problemy, rozwiązania.
+
+### Jak Działamy
+
+Szczegóły współpracy, procesu tworzenia dokumentów i logiki projektu w [WSPOLPRACA.md](WSPOLPRACA.md).
+
 Dokumenty są aktualizowane na podstawie:
 - Oficjalnej dokumentacji Rust ([rust-lang.org](https://doc.rust-lang.org/))
 - Feedbacku od społeczności
