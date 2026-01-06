@@ -9,6 +9,44 @@
 
 **Borrowing** (*pożyczanie*) pozwala na używanie wartości bez przejmowania ownership. To kluczowy mechanizm w Rust, który umożliwia efektywne zarządzanie pamięcią.
 
+## 🧠 Proces Myślenia: Jak Myśleć o Borrowing?
+
+Borrowing to sposób na "pożyczenie" wartości bez przejmowania ownership. Oto jak o tym myśleć:
+
+### Mentalny Model: Pożyczanie Książki
+
+- **Ownership** = posiadasz książkę (możesz ją zniszczyć, zmienić)
+- **Borrowing** = pożyczasz książkę (możesz czytać, ale musisz zwrócić w tym samym stanie)
+
+### Kiedy Używać Borrowing?
+
+1. **Czytasz wartość, ale nie zmieniasz** → `&T` (immutable reference)
+2. **Chcesz zmienić wartość** → `&mut T` (mutable reference)
+3. **Nie chcesz przejmować ownership** → użyj referencji zamiast wartości
+
+### Proces Myślenia Krok po Kroku
+
+```rust
+fn oblicz_dlugosc(s: &String) -> usize {  // 1. Przyjmuję referencję, nie ownership
+    s.len()                                // 2. Używam wartości przez referencję
+}  // 3. Referencja wychodzi poza zakres, ale String nie jest usuwany (nie byłem właścicielem)
+
+let s = String::from("hello");            // 4. s jest właścicielem
+let len = oblicz_dlugosc(&s);             // 5. Pożyczam s przez referencję
+println!("{}", s);                        // 6. ✅ s nadal działa - nie straciłem ownership
+```
+
+**Myślenie:**
+- Krok 1-2: Funkcja używa referencji - nie przejmuje ownership
+- Krok 3: Referencja znika, ale String (s) nadal istnieje
+- Krok 4-6: `s` nadal jest właścicielem - można go użyć
+
+### Zasady Borrowing - Jak Pamiętać?
+
+1. **Wiele czytelników LUB jeden pisarz** - nie można mieszać
+2. **Referencje muszą być ważne** - Rust zapobiega dangling references
+3. **Myśl o zakresach** - referencje są ważne tylko w swoim zakresie
+
 ## Referencje
 
 Zamiast przenosić ownership, możesz **pożyczyć** (*borrow*) wartość używając referencji:

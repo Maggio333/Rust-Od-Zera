@@ -20,9 +20,12 @@ desktop.ini
 *.swo
 *~
 
-# Rust build artifacts (jeśli dodamy przykłady kodu)
+# Rust build artifacts
+# target/ jest ignorowany w całym projekcie (może być bardzo duży)
 target/
-Cargo.lock
+
+# Cargo.lock - commitowany dla aplikacji binarnych (przykłady)
+# Nie commitowany dla bibliotek (crates)
 
 # Temporary files
 *.tmp

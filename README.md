@@ -94,6 +94,9 @@ Kompleksowa ścieżka nauki języka Rust od zera, stworzona z pasją i determina
 - [csharp-vs-rust.md](porownania/csharp-vs-rust.md) - Tabela porównawcza C# vs Rust
 - [python-vs-rust.md](porownania/python-vs-rust.md) - Tabela porównawcza Python vs Rust
 
+### Przykłady Kodu
+- [examples/](examples/) - Działające przykłady kodu Rust, zorganizowane zgodnie z dokumentacją
+
 ## 🎯 Jak Używać
 
 1. **Zacznij od początku** - dokumenty są numerowane i powinny być czytane po kolei
@@ -132,6 +135,10 @@ Szczegółowa historia zmian znajduje się w [CHANGELOG.md](CHANGELOG.md).
 ### Jak Działamy
 
 Szczegóły współpracy, procesu tworzenia dokumentów i logiki projektu w [WSPOLPRACA.md](WSPOLPRACA.md).
+
+### Proces Pracy
+
+Transparentny dziennik pokazujący jak uczę się Rust, jak współpracuję z AI, i jak ewoluuje moje myślenie w [proces/](proces/README.md).
 
 Dokumenty są aktualizowane na podstawie:
 - Oficjalnej dokumentacji Rust ([rust-lang.org](https://doc.rust-lang.org/))

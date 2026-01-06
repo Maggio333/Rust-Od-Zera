@@ -9,6 +9,26 @@
 
 W tym dokumencie nauczysz się podstawowych typów danych w Rust i jak pracować ze zmiennymi. To fundament, na którym zbudujesz resztę wiedzy.
 
+## 🧠 Proces Myślenia: Jak Myśleć o Zmiennych w Rust?
+
+Zanim przejdziemy do szczegółów, zastanówmy się jak Rust myśli o zmiennych:
+
+### Mentalny Model: Wiązanie, Nie Przechowywanie
+
+W Rust zmienne **wiążą** (*bind*) wartość z nazwą, a nie "przechowują" wartości jak w innych językach. To subtelna różnica, ale ważna:
+
+- **C#/Python:** "Zmienna przechowuje wartość"
+- **Rust:** "Zmienna wiąże nazwę z wartością"
+
+### Domyślna Niezmienność - Dlaczego?
+
+Rust domyślnie tworzy niezmienne zmienne, bo:
+1. **Bezpieczeństwo** - zapobiega przypadkowym zmianom
+2. **Współbieżność** - łatwiej myśleć o kodzie wielowątkowym
+3. **Czytelność** - wiesz że wartość się nie zmieni (chyba że `mut`)
+
+**Myślenie:** "Czy ta wartość musi się zmienić?" Jeśli nie - nie używaj `mut`.
+
 ## Zmienne - Podstawy
 
 ### `let` - Deklaracja Zmiennej

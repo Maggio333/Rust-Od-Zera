@@ -13,6 +13,56 @@
 
 **Ownership** to zestaw reguł, które Rust używa do zarządzania pamięcią. Każda wartość w Rust ma **właściciela** (*owner*), i w danym momencie może być tylko jeden właściciel.
 
+## 🧠 Proces Myślenia: Jak Myśleć o Ownership?
+
+Gdy zaczynasz z Rust, ownership może wydawać się skomplikowany. Oto jak o nim myśleć:
+
+### Mentalny Model 1: Własność jak Książka w Bibliotece
+
+Wyobraź sobie, że wartość to książka:
+- **Tylko jedna osoba może mieć książkę** w danym momencie (jeden owner)
+- Gdy oddajesz książkę komuś innemu, **ty już jej nie masz** (move)
+- Gdy książka wychodzi z biblioteki (scope), jest **automatycznie zwracana** (dealokacja)
+
+### Mentalny Model 2: Stack vs Heap - Pudełka vs Magazyn
+
+- **Stack** = małe pudełka na biurku (szybkie, znany rozmiar)
+  - Liczby, booleany - możesz je łatwo kopiować
+  - "Weź kopię tego pudełka" - działa szybko
+  
+- **Heap** = duży magazyn (wolniejszy, dynamiczny rozmiar)
+  - Stringi, wektory - kopiowanie byłoby drogie
+  - "Przenieś własność tego magazynu" - tylko jeden właściciel
+
+### Jak Podejść do Problemu Ownership?
+
+1. **Zadaj sobie pytanie:** "Czy to jest na stack czy heap?"
+   - Stack (liczby, booleany) → zwykle kopiuje się automatycznie
+   - Heap (String, Vec) → ownership jest przenoszony
+
+2. **Sprawdź błąd kompilatora:**
+   - "value moved here" → ownership został przeniesiony
+   - "value borrowed here" → używasz referencji (omówimy w następnym dokumencie)
+
+3. **Pomyśl o zakresie:**
+   - Gdy zmienna wychodzi poza zakres `{}`, jest usuwana
+   - To automatyczne - nie musisz pamiętać o zwalnianiu
+
+### Przykład Myślenia Krok po Kroku
+
+```rust
+let s1 = String::from("hello");  // 1. Tworzę String na heap
+let s2 = s1;                      // 2. Przenoszę ownership do s2
+// println!("{}", s1);            // 3. ❌ s1 nie ma już dostępu - ownership jest u s2
+```
+
+**Myślenie:**
+- Krok 1: `s1` jest właścicielem String na heap
+- Krok 2: Ownership jest **przeniesiony** (moved) do `s2`
+- Krok 3: `s1` nie jest już właścicielem - nie można go użyć
+
+**Dlaczego?** Bo gdyby oba mogły modyfikować ten sam String, mogłyby się konfliktować. Rust zapobiega temu w czasie kompilacji.
+
 ### Terminologia
 
 - **Ownership** (*własność*) - system zarządzania pamięcią w Rust

@@ -27,7 +27,12 @@ rust-od-zera/
 ├── 07-concurrency/        # Threads, Channels, Mutex, Async
 ├── 08-zaawansowane-tematy/ # Unsafe, Macros, FFI, Testing
 ├── porownania/            # Porównania z C# i Pythonem
+├── proces/                # Publiczny dziennik procesu pracy
+│   ├── README.md          # Główny indeks wpisów
+│   └── YYYY-MM-DD/        # Katalogi z datami
+│       └── nazwa-wpisu.md # Konkretne wpisy
 └── private/              # Nie commitowane (.gitignore)
+    └── DZIENNICZEK.md    # Prywatny dzienniczek (nie commitowany)
 ```
 
 ## Zasady Tworzenia Dokumentów
@@ -76,12 +81,112 @@ rust-od-zera/
 - AI pomaga w strukturze, przykładach, tłumaczeniach
 - Autor waliduje z oficjalną dokumentacją Rust
 - Dokumenty są aktualizowane na podstawie feedbacku
-- Proces jest transparentny - wszystko w DZIENNICZEK.md
+- Proces jest transparentny - publiczny dziennik w `proces/`
+
+## Flow Pracy - Dokumentowanie Procesu
+
+### Tworzenie Wpisu w proces/
+
+**KLUCZOWA ZASADA:** Wpisy dokumentują **rzeczywiste rozmowy i to co się wydarzyło**, NIE plany na przyszłość!
+
+#### Krok po Kroku:
+
+1. **Sprawdź datę** - użyj formatu YYYY-MM-DD
+2. **Utwórz katalog** - `proces/YYYY-MM-DD/` jeśli nie istnieje
+3. **Stwórz plik** - `proces/YYYY-MM-DD/nazwa-wpisu.md`
+4. **Użyj formatu** - zgodnie z szablonem w `proces/README.md`
+5. **Dodaj spostrzeżenia AI** - sekcja "🤖 Spostrzeżenia AI" na końcu
+6. **Zaktualizuj indeks** - dodaj link w `proces/README.md`
+
+### Co Dokumentować w proces/
+
+**WAŻNE:** Tylko rzeczywistość, nie prognozy!
+
+#### Obowiązkowe Sekcje:
+
+1. **O Czym Rozmawialiśmy:**
+   - Konkretne tematy rozmów
+   - Decyzje które podjęliśmy
+   - Problemy które rozwiązaliśmy
+
+2. **Rzeczywiste Rozmowy:**
+   - Konkretne wymiany zdań (Ja: "...", AI: "...")
+   - Pytania i odpowiedzi
+   - Decyzje projektowe
+   - Rezultaty rozmów
+
+3. **Co Się Faktycznie Wydarzyło:**
+   - Co zostało zrobione w tej sesji
+   - Jakie pliki zostały utworzone/zmienione
+   - Jakie decyzje zostały podjęte
+
+4. **Decyzje Projektowe:**
+   - Jakie decyzje podjęliśmy i dlaczego
+   - Alternatywy które rozważaliśmy
+   - Rezultat decyzji
+
+5. **Kluczowe Rozmowy:**
+   - Najważniejsze wymiany zdań
+   - Przełomowe momenty
+   - Ważne ustalenia
+
+6. **Co Zostało Stworzone:**
+   - Konkretne pliki, struktury, dokumenty
+   - Co zostało dodane do projektu
+
+7. **🤖 Spostrzeżenia AI:**
+   - Jak AI widzi współpracę w tej konkretnej sesji
+   - Co działa dobrze z perspektywy AI
+   - Co AI zauważa w procesie
+   - Konstruktywne uwagi i sugestie
+   - Szczerość - nie tylko pozytywne, ale też wyzwania
+
+### Czego NIE Dokumentować w proces/
+
+❌ **Plany na przyszłość** - "Co będę robił", "Następne kroki"
+❌ **Prognozy** - "Co się stanie", "Co mnie czeka"
+❌ **Hipotetyczne scenariusze** - "Gdybym miał..."
+❌ **Ogólne refleksje** - tylko jeśli dotyczą konkretnej rozmowy
+
+✅ **Tylko rzeczywistość** - co się faktycznie wydarzyło w rozmowach
+
+### Format Rozmów w Wpisach
+
+Używaj formatu:
+```markdown
+**Ja:** "Twoja wypowiedź"
+**AI:** "Moja odpowiedź"
+**Rezultat:** Co się stało po rozmowie
+```
+
+Lub:
+```markdown
+### Rozmowa X: [Temat]
+
+**Ja:** "Pytanie/decyzja"
+**AI:** "Odpowiedź/akcja"
+**Rezultat:** Konkretny efekt
+```
+
+### Systematyczność
+
+- **Jeden wpis = jedna sesja rozmów** lub jeden temat
+- **Katalog po dacie** - łatwe znalezienie
+- **Nazwa pliku** - opisowa (np. `start-projektu.md`, `tworzenie-dokumentacji.md`)
+- **Spostrzeżenia AI** - zawsze na końcu, szczere i konstruktywne
+
+### Różnica: proces/ vs private/DZIENNICZEK.md
+
+- **proces/** (public) - transparentny dziennik pokazujący jak pracuję, jak współpracuję z AI, proces myślenia
+- **private/DZIENNICZEK.md** (prywatny) - notatki prywatne, linki, eksperymenty, rzeczy które nie powinny być publiczne
 
 ## Pliki Specjalne
 
 - **README.md** - główny indeks, manifest uczenia się
-- **DZIENNICZEK.md** - wspólny dzienniczek autora i AI
+- **proces/** - publiczny dziennik procesu pracy (commitowany)
+  - **proces/README.md** - główny indeks wszystkich wpisów
+  - **proces/YYYY-MM-DD/** - katalogi z datami, zawierające konkretne wpisy
+- **private/DZIENNICZEK.md** - prywatny dzienniczek (NIE commitowany, w private/)
 - **CHANGELOG.md** - historia zmian dokumentów
 - **WSPOLPRACA.md** - logika współpracy w projekcie
 - **LICENSE** - CC BY-NC-SA 4.0 (nauka tak, komercja nie)
@@ -90,8 +195,9 @@ rust-od-zera/
 
 - Commitujemy regularnie
 - Sensowne commit messages
-- `private/` nie jest commitowane
-- DZIENNICZEK.md jest commitowany (transparentność)
+- `private/` nie jest commitowane (cały katalog w .gitignore)
+- `proces/` jest commitowany (transparentny proces pracy)
+- DZIENNICZEK.md jest w private/ (nie commitowany)
 
 ## Kiedy Tworzyć Nowe Dokumenty
 
