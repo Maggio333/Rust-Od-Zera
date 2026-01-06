@@ -42,6 +42,8 @@ Każdy dzień ma swój katalog, w którym są pliki z konkretnymi wpisami.
 - [Pierwsze Kroki z Cargo - Odkrycia i Pytania](2026-01-06/pierwsze-kroki-z-cargo.md) - Pierwsze doświadczenia z cargo check, cargo fmt, tryby kompilacji
 - [Organizacja Przykładów - Przeniesienie z Private](2026-01-06/organizacja-przykladow.md) - Reorganizacja struktury, przeniesienie przykładów do examples/
 - [Problem z Git - Nested Repository](2026-01-06/problem-z-git-nested-repo.md) - Rozwiązanie problemu z nested git repository w przykładzie
+- [Auto-Save i Duplikacja Projektów](2026-01-06/auto-save-i-duplikacja.md) - Auto-save w VS Code i rozważania o duplikacji projektów
+- [Reorganizacja Examples - Automatyczne Katalogi](2026-01-06/reorganizacja-examples.md) - Porządkowanie struktury examples/ i automatyczne tworzenie podkatalogów
 
 ---
 

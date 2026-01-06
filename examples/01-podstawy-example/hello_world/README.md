@@ -1,4 +1,4 @@
-# 01. Witaj Rust - Przykład
+# Hello World - Przykład
 
 > Przykład z dokumentu [01-witaj-rust.md](../../../01-podstawy/01-witaj-rust.md)
 
@@ -36,7 +36,7 @@ cargo fmt
 ## Struktura Projektu
 
 ```
-01-witaj-rust/
+hello_world/
 ├── Cargo.toml    # Konfiguracja projektu
 ├── src/
 │   └── main.rs   # Główny plik źródłowy
@@ -46,4 +46,3 @@ cargo fmt
 ---
 
 **Zobacz dokumentację:** [01-witaj-rust.md](../../../01-podstawy/01-witaj-rust.md)
-

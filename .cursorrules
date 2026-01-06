@@ -27,6 +27,16 @@ rust-od-zera/
 ├── 07-concurrency/        # Threads, Channels, Mutex, Async
 ├── 08-zaawansowane-tematy/ # Unsafe, Macros, FFI, Testing
 ├── porownania/            # Porównania z C# i Pythonem
+├── examples/              # Działające przykłady kodu Rust
+│   ├── README.md          # Główny indeks przykładów
+│   ├── 01-podstawy-example/     # Przykłady z sekcji "Podstawy"
+│   ├── 02-ownership-example/    # Przykłady z sekcji "Ownership"
+│   ├── 03-struktury-example/    # Przykłady z sekcji "Struktury Danych"
+│   ├── 04-error-handling-example/ # Przykłady z sekcji "Error Handling"
+│   ├── 05-traits-generics-example/ # Przykłady z sekcji "Traits i Generics"
+│   ├── 06-zaawansowane-example/   # Przykłady z sekcji "Zaawansowane"
+│   ├── 07-concurrency-example/    # Przykłady z sekcji "Concurrency"
+│   └── 08-zaawansowane-tematy-example/ # Przykłady z sekcji "Zaawansowane Tematy"
 ├── proces/                # Publiczny dziennik procesu pracy
 │   ├── README.md          # Główny indeks wpisów
 │   └── YYYY-MM-DD/        # Katalogi z datami
@@ -204,6 +214,14 @@ Lub:
 - Zgodnie z mapą ścieżki nauki w README.md
 - Krok po kroku, od podstaw do zaawansowanych
 - Każdy dokument powinien budować na poprzednich
+
+## Struktura Examples
+
+- **Katalogi example** - automatycznie stworzone dla wszystkich sekcji
+- **Projekty** - bezpośrednio w katalogach example (np. `examples/01-podstawy-example/hello_world/`)
+- **Nomenklatura** - opisowe nazwy projektów (np. `hello_world`, `ownership_demo`), nie numeracja
+- **Struktura zgodna z private/** - łatwiejsza nawigacja
+- **Gotowe katalogi** - wszystkie sekcje mają swoje katalogi example, można od razu tworzyć projekty
 
 ## Kiedy Aktualizować Dokumenty
 
