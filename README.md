@@ -44,51 +44,51 @@ Kompleksowa ścieżka nauki języka Rust od zera, stworzona z pasją i determina
 ## 🗺️ Mapa Ścieżki Nauki
 
 ### 01. Podstawy
-- [01-witaj-rust.md](01-podstawy/01-witaj-rust.md) - Hello World, instalacja, Cargo
-- [02-zmienne-i-typy.md](01-podstawy/02-zmienne-i-typy.md) - `let`, `mut`, typy podstawowe
-- [03-funkcje.md](01-podstawy/03-funkcje.md) - Definicje funkcji, parametry, return
-- [04-kontrola-przeplywu.md](01-podstawy/04-kontrola-przeplywu.md) - `if`, `match`, `loop`, `while`, `for`
+- ✅ [01-witaj-rust.md](01-podstawy/01-witaj-rust.md) - Hello World, instalacja, Cargo
+- ✅ [02-zmienne-i-typy.md](01-podstawy/02-zmienne-i-typy.md) - `let`, `mut`, typy podstawowe
+- ✅ [03-funkcje.md](01-podstawy/03-funkcje.md) - Definicje funkcji, parametry, return
+- ✅ [04-kontrola-przeplywu.md](01-podstawy/04-kontrola-przeplywu.md) - `if`, `match`, `loop`, `while`, `for`
 
 ### 02. Ownership i Borrowing
-- [01-ownership-podstawy.md](02-ownership/01-ownership-podstawy.md) - Co to ownership, stack vs heap
-- [02-borrowing.md](02-ownership/02-borrowing.md) - Referencje (`&`), borrowing rules
-- [03-lifetimes.md](02-ownership/03-lifetimes.md) - Lifetimes (`'a`), elision
-- [04-string-vs-str.md](02-ownership/04-string-vs-str.md) - `String` vs `&str` - szczegółowe wyjaśnienie
+- ✅ [01-ownership-podstawy.md](02-ownership/01-ownership-podstawy.md) - Co to ownership, stack vs heap
+- ⏳ [02-borrowing.md](02-ownership/02-borrowing.md) - Referencje (`&`), borrowing rules
+- ⏳ [03-lifetimes.md](02-ownership/03-lifetimes.md) - Lifetimes (`'a`), elision
+- ⏳ [04-string-vs-str.md](02-ownership/04-string-vs-str.md) - `String` vs `&str` - szczegółowe wyjaśnienie
 
 ### 03. Struktury Danych
-- [01-struktury.md](03-struktury-dane/01-struktury.md) - `struct`, pola, metody
-- [02-enums.md](03-struktury-dane/02-enums.md) - `enum`, `Option`, `Result`
-- [03-pattern-matching.md](03-struktury-dane/03-pattern-matching.md) - `match`, `if let`, `while let`
-- [04-collections.md](03-struktury-dane/04-collections.md) - `Vec`, `HashMap`, `HashSet`
+- ⏳ [01-struktury.md](03-struktury-dane/01-struktury.md) - `struct`, pola, metody
+- ⏳ [02-enums.md](03-struktury-dane/02-enums.md) - `enum`, `Option`, `Result`
+- ⏳ [03-pattern-matching.md](03-struktury-dane/03-pattern-matching.md) - `match`, `if let`, `while let`
+- ⏳ [04-collections.md](03-struktury-dane/04-collections.md) - `Vec`, `HashMap`, `HashSet`
 
 ### 04. Error Handling
-- [01-result-type.md](04-error-handling/01-result-type.md) - `Result<T, E>`, `unwrap`, `expect`
-- [02-option-type.md](04-error-handling/02-option-type.md) - `Option<T>`, `Some`, `None`
-- [03-propagation.md](04-error-handling/03-propagation.md) - `?`, `try!`, error handling patterns
+- ⏳ [01-result-type.md](04-error-handling/01-result-type.md) - `Result<T, E>`, `unwrap`, `expect`
+- ⏳ [02-option-type.md](04-error-handling/02-option-type.md) - `Option<T>`, `Some`, `None`
+- ⏳ [03-propagation.md](04-error-handling/03-propagation.md) - `?`, `try!`, error handling patterns
 
 ### 05. Traits i Generics
-- [01-traits-podstawy.md](05-traits-generics/01-traits-podstawy.md) - `trait`, `impl`, default methods
-- [02-generics.md](05-traits-generics/02-generics.md) - `<T>`, generic functions, structs
-- [03-trait-bounds.md](05-traits-generics/03-trait-bounds.md) - `where`, trait bounds
-- [04-common-traits.md](05-traits-generics/04-common-traits.md) - `Clone`, `Copy`, `Debug`, `Display`
+- ⏳ [01-traits-podstawy.md](05-traits-generics/01-traits-podstawy.md) - `trait`, `impl`, default methods
+- ⏳ [02-generics.md](05-traits-generics/02-generics.md) - `<T>`, generic functions, structs
+- ⏳ [03-trait-bounds.md](05-traits-generics/03-trait-bounds.md) - `where`, trait bounds
+- ⏳ [04-common-traits.md](05-traits-generics/04-common-traits.md) - `Clone`, `Copy`, `Debug`, `Display`
 
 ### 06. Zaawansowane
-- [01-closures.md](06-zaawansowane/01-closures.md) - Closures, capture modes
-- [02-iterators.md](06-zaawansowane/02-iterators.md) - `Iterator` trait, `map`, `filter`, `collect`
-- [03-smart-pointers.md](06-zaawansowane/03-smart-pointers.md) - `Box`, `Rc`, `RefCell`, `Arc`
-- [04-modules.md](06-zaawansowane/04-modules.md) - `mod`, `use`, `pub`, crate structure
+- ⏳ [01-closures.md](06-zaawansowane/01-closures.md) - Closures, capture modes
+- ⏳ [02-iterators.md](06-zaawansowane/02-iterators.md) - `Iterator` trait, `map`, `filter`, `collect`
+- ⏳ [03-smart-pointers.md](06-zaawansowane/03-smart-pointers.md) - `Box`, `Rc`, `RefCell`, `Arc`
+- ⏳ [04-modules.md](06-zaawansowane/04-modules.md) - `mod`, `use`, `pub`, crate structure
 
 ### 07. Concurrency
-- [01-threads.md](07-concurrency/01-threads.md) - `thread::spawn`, `JoinHandle`
-- [02-channels.md](07-concurrency/02-channels.md) - `mpsc`, sender, receiver
-- [03-mutex.md](07-concurrency/03-mutex.md) - `Mutex`, `RwLock`, `Arc<Mutex<T>>`
-- [04-async.md](07-concurrency/04-async.md) - `async`/`await`, `Future`, tokio
+- ⏳ [01-threads.md](07-concurrency/01-threads.md) - `thread::spawn`, `JoinHandle`
+- ⏳ [02-channels.md](07-concurrency/02-channels.md) - `mpsc`, sender, receiver
+- ⏳ [03-mutex.md](07-concurrency/03-mutex.md) - `Mutex`, `RwLock`, `Arc<Mutex<T>>`
+- ⏳ [04-async.md](07-concurrency/04-async.md) - `async`/`await`, `Future`, tokio
 
 ### 08. Zaawansowane Tematy
-- [01-unsafe-rust.md](08-zaawansowane-tematy/01-unsafe-rust.md) - `unsafe`, raw pointers
-- [02-macros.md](08-zaawansowane-tematy/02-macros.md) - `macro_rules!`, procedural macros
-- [03-ffi.md](08-zaawansowane-tematy/03-ffi.md) - Foreign Function Interface
-- [04-testing.md](08-zaawansowane-tematy/04-testing.md) - `#[test]`, `#[cfg(test)]`, integration tests
+- ⏳ [01-unsafe-rust.md](08-zaawansowane-tematy/01-unsafe-rust.md) - `unsafe`, raw pointers
+- ⏳ [02-macros.md](08-zaawansowane-tematy/02-macros.md) - `macro_rules!`, procedural macros
+- ⏳ [03-ffi.md](08-zaawansowane-tematy/03-ffi.md) - Foreign Function Interface
+- ⏳ [04-testing.md](08-zaawansowane-tematy/04-testing.md) - `#[test]`, `#[cfg(test)]`, integration tests
 
 ### Porównania
 - [csharp-vs-rust.md](porownania/csharp-vs-rust.md) - Tabela porównawcza C# vs Rust
@@ -122,6 +122,51 @@ Ten projekt jest dostępny na licencji [Creative Commons Attribution-NonCommerci
 - ✅ Musisz zachować licencję przy modyfikacjach
 
 ## 📊 Status Nauki i Aktualizacje
+
+### 📈 Wskaźnik Postępu
+
+**Ogólny postęp:** `[██░░░░░░░░]` 16% (5/32 dokumentów ukończonych, 27/32 w trakcie)
+
+| Sekcja | Postęp | Status |
+|--------|--------|--------|
+| 01. Podstawy | `[████]` 100% | ✅ 4/4 ukończone |
+| 02. Ownership i Borrowing | `[███░]` 75% | ✅ 1/4 ukończone, ⏳ 3/4 w trakcie |
+| 03. Struktury Danych | `[██░░]` 50% | ⏳ 4/4 istnieją, podstawowa struktura |
+| 04. Error Handling | `[██░░]` 50% | ⏳ 3/3 istnieją, podstawowa struktura |
+| 05. Traits i Generics | `[██░░]` 50% | ⏳ 4/4 istnieją, podstawowa struktura |
+| 06. Zaawansowane | `[██░░]` 50% | ⏳ 4/4 istnieją, podstawowa struktura |
+| 07. Concurrency | `[██░░]` 50% | ⏳ 4/4 istnieją, podstawowa struktura |
+| 08. Zaawansowane Tematy | `[██░░]` 50% | ⏳ 4/4 istnieją, podstawowa struktura |
+
+**Legenda:**
+- ✅ Ukończony i zweryfikowany (pełna struktura: status, podsumowanie, ćwiczenia, porównania)
+- ⏳ W trakcie tworzenia (istnieje, ma podstawową strukturę: wprowadzenie, przykłady, ćwiczenia)
+- 📝 Do zrobienia (nie istnieje)
+
+**Uwaga:** Wszystkie dokumenty istnieją i mają podstawową strukturę. Tylko sekcja "01. Podstawy" ma pełną strukturę ze statusem dokumentu i szczegółowym podsumowaniem. Pozostałe dokumenty wymagają uzupełnienia o sekcję statusu i rozszerzenia podsumowań.
+
+### 📦 Wskaźnik Postępu Przykładów
+
+**Ogólny postęp przykładów:** `[█░░░░░░░░░]` 19% (6/32 projektów)
+
+| Sekcja | Projekty | Status |
+|--------|----------|--------|
+| 01. Podstawy | `[██████]` 100% | ✅ 6/6 projektów |
+| 02. Ownership i Borrowing | `[░░░░]` 0% | 📝 0/4 projektów |
+| 03. Struktury Danych | `[░░░░]` 0% | 📝 0/4 projektów |
+| 04. Error Handling | `[░░░]` 0% | 📝 0/3 projektów |
+| 05. Traits i Generics | `[░░░░]` 0% | 📝 0/4 projektów |
+| 06. Zaawansowane | `[░░░░]` 0% | 📝 0/4 projektów |
+| 07. Concurrency | `[░░░░]` 0% | 📝 0/4 projektów |
+| 08. Zaawansowane Tematy | `[░░░░]` 0% | 📝 0/4 projektów |
+
+**Projekty w 01-podstawy-example:**
+- ✅ `hello_world` - Hello World, podstawy Cargo
+- ✅ `moj_pierwszy_program` - Podstawy println!
+- ✅ `biometria` - Zmienne i typy
+- ✅ `funkcje_example` - Funkcje
+- ✅ `kontrola_przeplywu` - if, match, loop, while, for
+- ✅ `shadowing` - Shadowing vs mut
 
 ### Aktualny Stan
 
