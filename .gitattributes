@@ -1,0 +1,12 @@
+# Wymuś Rust jako główny język repozytorium
+*.rs linguist-language=Rust
+
+# Oznacz pliki Markdown jako dokumentację (nie będą liczone jako główny język)
+*.md linguist-documentation=true
+
+# Oznacz inne pliki dokumentacyjne
+*.txt linguist-documentation=true
+LICENSE linguist-documentation=true
+CHANGELOG.md linguist-documentation=true
+README.md linguist-documentation=true
+
