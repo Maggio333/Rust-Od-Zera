@@ -8,7 +8,7 @@ fn main() {
     // oblicz(2, 3);
     // srednia(2.0, 3.0, 4.0);
 
-    let mut count = 3; //no niestety, nie ma tak łatwo :p
+    let mut count = 3; 
     count = invoke_example(count, kwadrat(3).to_string());
     count = invoke_example(count, oblicz(2, 3).to_string());
     invoke_example(count, srednia(2.0, 3.0, 4.0).to_string());
@@ -40,7 +40,6 @@ fn srednia(a: f64, b: f64, c: f64) -> f64 {
     (a + b + c) / 3.0
 }
 
-//poniżej nadmiarowy kod aby pokazać co planowałem ale nie wyszło
 fn print_with_enumenator(count: i32, value: String) {
     println!("id ćwiczenia:{}, value:{}", count, value);
 }
