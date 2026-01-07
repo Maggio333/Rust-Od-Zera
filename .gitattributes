@@ -1,4 +1,6 @@
 # Wymuś Rust jako główny język repozytorium
+# Wszystkie pliki .rs, niezależnie od głębokości zagnieżdżenia
+**/*.rs linguist-language=Rust
 *.rs linguist-language=Rust
 *.toml linguist-language=Rust
 
