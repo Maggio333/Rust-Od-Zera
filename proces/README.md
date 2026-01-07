@@ -44,6 +44,10 @@ Każdy dzień ma swój katalog, w którym są pliki z konkretnymi wpisami.
 - [Problem z Git - Nested Repository](2026-01-06/problem-z-git-nested-repo.md) - Rozwiązanie problemu z nested git repository w przykładzie
 - [Auto-Save i Duplikacja Projektów](2026-01-06/auto-save-i-duplikacja.md) - Auto-save w VS Code i rozważania o duplikacji projektów
 - [Reorganizacja Examples - Automatyczne Katalogi](2026-01-06/reorganizacja-examples.md) - Porządkowanie struktury examples/ i automatyczne tworzenie podkatalogów
+- [Warning w Ćwiczeniu Biometria - Analiza Polecenia](2026-01-06/warning-w-cwiczeniu-biometria.md) - Rozwiązanie problemu z warningiem o nieużywanej wartości w ćwiczeniu
+- [Shadowing vs Mut - Kreatywne Podejście z Licznikiem](2026-01-06/shadowing-vs-mut-rozmowa.md) - Rozmowa o różnicy między shadowing a mut, kreatywne podejście z licznikiem
+- [Funkcje - toString, Enumerator i Konwencje](2026-01-06/funkcje-to-string-i-enumerator.md) - Rozmowa o konwersji liczby na String, kreatywne podejście z enumeratorem, konwencje nazewnictwa
+- [Kontrola Przepływu - Early Returns i Lifetimes](2026-01-06/kontrola-przeplywu-early-returns.md) - Rozmowa o early returns, lifetimes, podejście z "finally", uzupełnienie dokumentu
 
 ---
 

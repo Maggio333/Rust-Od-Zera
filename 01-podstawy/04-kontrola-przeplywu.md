@@ -91,6 +91,51 @@ fn main() {
 }
 ```
 
+## Early Returns (Wczesne Wyjścia)
+
+W Rust możesz używać **early returns** (*wczesne wyjścia*) - wychodzić z funkcji wcześniej używając `return`:
+
+```rust
+fn znak(liczba: i32) -> &'static str {
+    if liczba > 0 {
+        return "dodatnia";  // Wychodzimy wcześnie
+    }
+    if liczba == 0 {
+        return "zero";  // Wychodzimy wcześnie
+    }
+    "ujemna"  // Domyślna wartość - zawsze się wykona (jak "finally")
+}
+```
+
+### Alternatywne Podejście z Zmienną
+
+Możesz też użyć zmiennej z wartością domyślną i modyfikować ją:
+
+```rust
+fn znak(liczba: i32) -> &'static str {
+    let mut result = "ujemna";  // Domyślna wartość
+    if liczba > 0 {
+        result = "dodatnia";
+    } else if liczba == 0 {
+        result = "zero";
+    }
+    result  // Zawsze zwracamy result (jak "finally")
+}
+```
+
+### Kiedy Używać Early Returns?
+
+- **Early returns** - gdy chcesz wyjść wcześnie z funkcji, kod jest bardziej czytelny
+- **Zmienna z wartością domyślną** - gdy chcesz mieć "finally" (kod zawsze się wykona)
+
+Oba podejścia są poprawne w Rust! Wybierz to, które jest bardziej czytelne dla Twojego przypadku.
+
+### Uwaga o Lifetimes
+
+W powyższych przykładach używamy `&'static str` - to jest **lifetime** (*cykl życia*). Lifetimes będą szczegółowo wyjaśnione w sekcji [02-ownership/03-lifetimes.md](../02-ownership/03-lifetimes.md). Na razie wystarczy wiedzieć, że:
+- `&'static str` - literały stringowe (np. `"tekst"`) mają lifetime `'static`
+- Lifetimes będą wyjaśnione później - na razie używaj `&'static str` dla literałów stringowych
+
 ## Pętle - `loop`
 
 **`loop`** wykonuje kod w nieskończoność, dopóki nie przerwiesz go używając `break`:
@@ -429,7 +474,9 @@ Stwórz program, który iteruje po tablicy `[1, 2, 3, 4, 5]` i wyświetla każdy
 
 ### Ćwiczenie 5: `match`
 
-Stwórz funkcję `dzien_tygodnia(numer: u32) -> &str`, która zwraca nazwę dnia tygodnia używając `match`:
+Stwórz funkcję `dzien_tygodnia(numer: u32) -> &'static str`, która zwraca nazwę dnia tygodnia używając `match`:
+
+**Uwaga:** `&'static str` to lifetime - będzie wyjaśniony później. Na razie używaj go dla literałów stringowych.
 - 1 => "Poniedziałek"
 - 2 => "Wtorek"
 - ...
@@ -446,6 +493,7 @@ W tym dokumencie nauczyłeś się:
 
 - ✅ Instrukcji warunkowych `if`, `else`, `else if`
 - ✅ Używania `if` jako wyrażenia
+- ✅ Early returns (wczesne wyjścia z funkcji)
 - ✅ Pętli `loop`, `while`, `for`
 - ✅ Pattern matching z `match`
 - ✅ Etykiet pętli

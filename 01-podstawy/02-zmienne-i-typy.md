@@ -298,6 +298,8 @@ Stwórz program, który:
 3. Zmienia wartość `wzrost` na 181.0
 4. Wyświetla obie wartości
 
+**Uwaga:** Rust może wyświetlić warning o nieużywanej wartości `180.5` (bo od razu ją zmieniasz). To normalne w tym ćwiczeniu - możesz zignorować warning lub użyć `#[allow(unused_assignments)]` nad deklaracją `wzrost`.
+
 ### Ćwiczenie 2: Shadowing
 
 Stwórz program, który:
