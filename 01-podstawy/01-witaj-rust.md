@@ -52,9 +52,11 @@ cargo --version
 
 Powinieneś zobaczyć coś podobnego do:
 ```
-rustc 1.75.0 (82e1608df 2023-12-21)
-cargo 1.75.0 (1d8b05cdd 2023-11-20)
+rustc 1.82.0 (2024-12-19)
+cargo 1.82.0 (2024-12-19)
 ```
+
+**Uwaga:** Wersje mogą się różnić w zależności od daty instalacji. Najnowsze wersje można sprawdzić na [rust-lang.org](https://www.rust-lang.org/).
 
 ## Twój pierwszy program: Hello World
 
@@ -304,10 +306,17 @@ Gratulacje! Masz już działający program w Rust. W następnym dokumencie ([02-
 
 ---
 
+## 📚 Dalsze Czytanie
+
+- [The Rust Book - Getting Started](https://doc.rust-lang.org/book/ch01-00-getting-started.html)
+- [The Rust Book - Hello, Cargo!](https://doc.rust-lang.org/book/ch01-03-hello-cargo.html)
+- [Rust by Example - Hello World](https://doc.rust-lang.org/rust-by-example/hello.html)
+- [Oficjalna strona Rust](https://www.rust-lang.org/)
+
 ## 📝 Status Dokumentu
 
 **Data utworzenia:** 2026-01-06  
-**Status walidacji:** ⏳ Czeka na weryfikację z oficjalną dokumentacją Rust  
+**Status walidacji:** ✅ Zweryfikowany z oficjalną dokumentacją Rust (2026-01-06)  
 **Ostatnia aktualizacja:** 2026-01-06
 
 ### Uwagi Autora

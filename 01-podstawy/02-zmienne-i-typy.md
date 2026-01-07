@@ -347,10 +347,17 @@ Gratulacje! Znasz już podstawy zmiennych i typów. W następnym dokumencie ([03
 
 ---
 
+## 📚 Dalsze Czytanie
+
+- [The Rust Book - Variables and Mutability](https://doc.rust-lang.org/book/ch03-01-variables-and-mutability.html)
+- [The Rust Book - Data Types](https://doc.rust-lang.org/book/ch03-02-data-types.html)
+- [Rust by Example - Variable Bindings](https://doc.rust-lang.org/rust-by-example/variable_bindings.html)
+- [Rust by Example - Types](https://doc.rust-lang.org/rust-by-example/types.html)
+
 ## 📝 Status Dokumentu
 
 **Data utworzenia:** 2026-01-06  
-**Status walidacji:** ⏳ Czeka na weryfikację z oficjalną dokumentacją Rust  
+**Status walidacji:** ✅ Zweryfikowany z oficjalną dokumentacją Rust (2026-01-06)  
 **Ostatnia aktualizacja:** 2026-01-06
 
 ### Uwagi Autora

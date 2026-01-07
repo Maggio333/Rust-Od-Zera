@@ -359,10 +359,16 @@ W tym dokumencie nauczyłeś się:
 
 ---
 
+## 📚 Dalsze Czytanie
+
+- [The Rust Book - Functions](https://doc.rust-lang.org/book/ch03-03-how-functions-work.html)
+- [Rust by Example - Functions](https://doc.rust-lang.org/rust-by-example/fn.html)
+- [The Rust Reference - Functions](https://doc.rust-lang.org/reference/items/functions.html)
+
 ## 📝 Status Dokumentu
 
 **Data utworzenia:** 2026-01-06  
-**Status walidacji:** ⏳ Czeka na weryfikację z oficjalną dokumentacją Rust  
+**Status walidacji:** ✅ Zweryfikowany z oficjalną dokumentacją Rust (2026-01-06)  
 **Ostatnia aktualizacja:** 2026-01-06
 
 ### Uwagi Autora

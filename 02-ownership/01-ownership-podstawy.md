@@ -370,10 +370,17 @@ W tym dokumencie nauczyłeś się:
 
 ---
 
+## 📚 Dalsze Czytanie
+
+- [The Rust Book - Understanding Ownership](https://doc.rust-lang.org/book/ch04-00-understanding-ownership.html)
+- [The Rust Book - What is Ownership?](https://doc.rust-lang.org/book/ch04-01-what-is-ownership.html)
+- [The Rust Book - References and Borrowing](https://doc.rust-lang.org/book/ch04-02-references-and-borrowing.html)
+- [Rust by Example - Ownership](https://doc.rust-lang.org/rust-by-example/scope/ownership.html)
+
 ## 📝 Status Dokumentu
 
 **Data utworzenia:** 2026-01-06  
-**Status walidacji:** ⏳ Czeka na weryfikację z oficjalną dokumentacją Rust  
+**Status walidacji:** ✅ Zweryfikowany z oficjalną dokumentacją Rust (2026-01-06)  
 **Ostatnia aktualizacja:** 2026-01-06
 
 ### Uwagi Autora

@@ -511,10 +511,17 @@ W tym dokumencie nauczyłeś się:
 
 ---
 
+## 📚 Dalsze Czytanie
+
+- [The Rust Book - Control Flow](https://doc.rust-lang.org/book/ch03-05-control-flow.html)
+- [Rust by Example - Flow Control](https://doc.rust-lang.org/rust-by-example/flow_control.html)
+- [Rust by Example - Match](https://doc.rust-lang.org/rust-by-example/flow_control/match.html)
+- [The Rust Reference - Pattern Matching](https://doc.rust-lang.org/reference/patterns.html)
+
 ## 📝 Status Dokumentu
 
 **Data utworzenia:** 2026-01-06  
-**Status walidacji:** ⏳ Czeka na weryfikację z oficjalną dokumentacją Rust  
+**Status walidacji:** ✅ Zweryfikowany z oficjalną dokumentacją Rust (2026-01-06)  
 **Ostatnia aktualizacja:** 2026-01-06
 
 ### Uwagi Autora
