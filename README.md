@@ -22,10 +22,11 @@ Ten projekt to mój manifest - pokazuję jak podchodzę do nauki jako samouk. Ni
 
 ### Jak to działa?
 
-1. **Tworzenie materiałów** - AI pomaga mi przygotować dokumenty (struktura, przykłady, tłumaczenia)
-2. **Walidacja** - czytam oficjalną dokumentację Rust i weryfikuję poprawność
-3. **Feedback** - po publikacji zbieram opinie i poprawiam błędy
-4. **Ewolucja** - dokumenty rosną wraz z moją wiedzą
+1. **Znajdowanie dokumentacji** - AI znajduje odpowiednią dokumentację do danego problemu
+2. **Walidacja teoretyczna** - AI sprawdza zgodność z oficjalną dokumentacją Rust
+3. **Walidacja praktyczna** - rozwiązuję zadania, testuję kod, weryfikuję w działaniu
+4. **Feedback** - po publikacji zbieram opinie i poprawiam błędy
+5. **Ewolucja** - dokumenty rosną wraz z moją wiedzą
 
 **To nie jest kurs od eksperta. To jest podróż samouka, którą możesz obserwować i w której możesz uczestniczyć.**
 
@@ -244,13 +245,14 @@ Dokumenty są aktualizowane na podstawie:
 
 Ten projekt pokazuje potencjał współpracy człowieka z AI w edukacji:
 
-- **AI pomaga** w strukturze, przykładach, tłumaczeniach
-- **Człowiek waliduje** - sprawdza z dokumentacją, poprawia błędy, dodaje kontekst
-- **Razem tworzymy** wartościowe materiały edukacyjne
+- **AI znajduje dokumentację** - lokalizuje odpowiednie źródła do danego problemu
+- **AI waliduje teoretycznie** - sprawdza zgodność z oficjalną dokumentacją Rust
+- **Człowiek waliduje praktycznie** - rozwiązuje zadania, testuje kod, weryfikuje w działaniu
+- **Podwójna weryfikacja** - teoretyczna (AI) i praktyczna (człowiek) razem tworzą wartościowe materiały edukacyjne
 
-**Cały proces współpracy jest dokumentowany w [proces/](proces/README.md)** - możesz zobaczyć rzeczywiste rozmowy, jak AI pomaga, jak ja waliduję, i jak razem rozwiązujemy problemy.
+**Cały proces współpracy jest dokumentowany w [proces/](proces/README.md)** - możesz zobaczyć rzeczywiste rozmowy, jak AI znajduje dokumentację, jak ja waliduję praktycznie, i jak razem rozwiązujemy problemy.
 
-To nie zastępuje nauki - to narzędzie, które przyspiesza proces tworzenia materiałów, ale wymaga ludzkiej weryfikacji i zrozumienia.
+To nie zastępuje nauki - to narzędzie, które przyspiesza proces tworzenia materiałów, ale wymaga ludzkiej weryfikacji praktycznej i zrozumienia.
 
 ## 🤝 Wsparcie
 
